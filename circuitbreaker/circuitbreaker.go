@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/errors"
-	"github.com/slok/goresilience/metrics"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/errors"
+	"github.com/fairyhunter13/goresilience/metrics"
 )
 
 type state string
@@ -185,7 +185,7 @@ func (c *circuitbreaker) postDecideState(metricsRec metrics.Recorder) {
 		}
 	case stateClosed:
 		// Check if we need to go to open state. If we bypassed the thresholds trip the circuit.
-		if c.recorder.totalRequests() >= float64(c.cfg.MinimumRequestToOpen) && c.recorder.errorRate() >= float64(c.cfg.MinimumRequestToOpen)/100 {
+		if c.recorder.totalRequests() >= float64(c.cfg.MinimumRequestToOpen) && c.recorder.errorRate() >= float64(c.cfg.ErrorPercentThresholdToOpen)/100 {
 			c.moveState(stateOpen, metricsRec)
 		}
 	}

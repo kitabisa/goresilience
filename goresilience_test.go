@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/slok/goresilience"
+	"github.com/fairyhunter13/goresilience"
 	"github.com/stretchr/testify/assert"
 )
 

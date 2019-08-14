@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/slok/goresilience/concurrencylimit/execute"
+	"github.com/fairyhunter13/goresilience/concurrencylimit/execute"
 )
 
 var benchf = func() error {

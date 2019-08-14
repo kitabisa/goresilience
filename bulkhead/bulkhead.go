@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/errors"
-	"github.com/slok/goresilience/metrics"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/errors"
+	"github.com/fairyhunter13/goresilience/metrics"
 )
 
 // Config is the configuration of the Bulkhead runner.

@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/slok/goresilience"
-	grerrors "github.com/slok/goresilience/errors"
-	"github.com/slok/goresilience/timeout"
+	"github.com/fairyhunter13/goresilience"
+	grerrors "github.com/fairyhunter13/goresilience/errors"
+	"github.com/fairyhunter13/goresilience/timeout"
 )
 
 func TestTimeout(t *testing.T) {

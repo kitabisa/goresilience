@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/slok/goresilience/timeout"
+	"github.com/fairyhunter13/goresilience/timeout"
 )
 
 func main() {

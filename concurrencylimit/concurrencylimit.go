@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/concurrencylimit/execute"
-	"github.com/slok/goresilience/concurrencylimit/limit"
-	"github.com/slok/goresilience/metrics"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/concurrencylimit/execute"
+	"github.com/fairyhunter13/goresilience/concurrencylimit/limit"
+	"github.com/fairyhunter13/goresilience/metrics"
 )
 
 // Config is the concurrency limit algorithm

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/slok/goresilience/bulkhead"
+	"github.com/fairyhunter13/goresilience/bulkhead"
 )
 
 const (
