@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/retry"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/retry"
 )
 
 var err = errors.New("wanted error")

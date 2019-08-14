@@ -10,10 +10,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/metrics"
-	"github.com/slok/goresilience/retry"
-	"github.com/slok/goresilience/timeout"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/metrics"
+	"github.com/fairyhunter13/goresilience/retry"
+	"github.com/fairyhunter13/goresilience/timeout"
 )
 
 func myFunc(ctx context.Context) error { return nil }

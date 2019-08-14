@@ -59,7 +59,7 @@ import (
     "log"
     "time"
 
-    "github.com/slok/goresilience/timeout"
+    "github.com/fairyhunter13/goresilience/timeout"
 )
 
 func main() {
@@ -99,10 +99,10 @@ import (
     "errors"
     "fmt"
 
-    "github.com/slok/goresilience"
-    "github.com/slok/goresilience/bulkhead"
-    "github.com/slok/goresilience/retry"
-    "github.com/slok/goresilience/timeout"
+    "github.com/fairyhunter13/goresilience"
+    "github.com/fairyhunter13/goresilience/bulkhead"
+    "github.com/fairyhunter13/goresilience/retry"
+    "github.com/fairyhunter13/goresilience/timeout"
 )
 
 func main() {
@@ -299,12 +299,12 @@ func NewMiddleware(cfg Config) goresilience.Middleware {
 }
 ```
 
-[travis-image]: https://travis-ci.org/slok/goresilience.svg?branch=master
-[travis-url]: https://travis-ci.org/slok/goresilience
-[goreport-image]: https://goreportcard.com/badge/github.com/slok/goresilience
-[goreport-url]: https://goreportcard.com/report/github.com/slok/goresilience
-[godoc-image]: https://godoc.org/github.com/slok/goresilience?status.svg
-[godoc-url]: https://godoc.org/github.com/slok/goresilience
+[travis-image]: https://travis-ci.org/fairyhunter13/goresilience.svg?branch=master
+[travis-url]: https://travis-ci.org/fairyhunter13/goresilience
+[goreport-image]: https://goreportcard.com/badge/github.com/fairyhunter13/goresilience
+[goreport-url]: https://goreportcard.com/report/github.com/fairyhunter13/goresilience
+[godoc-image]: https://godoc.org/github.com/fairyhunter13/goresilience?status.svg
+[godoc-url]: https://godoc.org/github.com/fairyhunter13/goresilience
 [sony/gobreaker]: https://github.com/sony/gobreaker
 [afex/hystrix-go]: https://github.com/afex/hystrix-go
 [rubyist/circuitbreaker]: https://github.com/rubyist/circuitbreaker

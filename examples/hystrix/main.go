@@ -10,12 +10,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/bulkhead"
-	"github.com/slok/goresilience/circuitbreaker"
-	"github.com/slok/goresilience/metrics"
-	"github.com/slok/goresilience/retry"
-	"github.com/slok/goresilience/timeout"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/bulkhead"
+	"github.com/fairyhunter13/goresilience/circuitbreaker"
+	"github.com/fairyhunter13/goresilience/metrics"
+	"github.com/fairyhunter13/goresilience/retry"
+	"github.com/fairyhunter13/goresilience/timeout"
 )
 
 // HystrixConf is the configuration of the hystrix runner.

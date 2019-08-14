@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/circuitbreaker"
-	"github.com/slok/goresilience/errors"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/circuitbreaker"
+	"github.com/fairyhunter13/goresilience/errors"
 )
 
 var err = fmt.Errorf("wanted error")

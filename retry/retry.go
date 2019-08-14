@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/metrics"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/metrics"
 )
 
 // Config is the configuration used for the retry Runner.

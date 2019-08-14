@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/slok/goresilience/errors"
+	"github.com/fairyhunter13/goresilience/errors"
 )
 
 // AdaptiveLIFOCodelConfig is the configuration for the AdaptiveLIFOCodel executor.

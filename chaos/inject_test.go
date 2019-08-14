@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/slok/goresilience"
-	"github.com/slok/goresilience/chaos"
-	"github.com/slok/goresilience/errors"
+	"github.com/fairyhunter13/goresilience"
+	"github.com/fairyhunter13/goresilience/chaos"
+	"github.com/fairyhunter13/goresilience/errors"
 	"github.com/stretchr/testify/assert"
 )
 
